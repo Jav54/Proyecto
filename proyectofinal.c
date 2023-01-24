@@ -392,7 +392,7 @@ int main(){
 	Sleep(700);
 	
 	FILE *archivo3=NULL;
-	archivo3=fopen("inventariofinal.txt","w");
+	archivo3=fopen("auxinventario.txt","w");
 	
 	if (archivo3==NULL){
         printf("No se puede abrir el archivo");
@@ -436,11 +436,15 @@ int main(){
 	centrar("H a s t a    L u e g o!",25);
 	centrar("-----------------------",26);
 	Sleep(700);
-				      				
 	
-    fclose(archivo);
+	fclose(archivo);
     fclose(archivo2);
     fclose(archivo3);
+	
+	remove("inventario.txt");		      		
+	rename("auxinventario.txt", "inventario.txt");									
+	
+    
     return 0;
 }
 
