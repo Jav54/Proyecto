@@ -1,0 +1,13 @@
+Inventario Salud Para Todos
+
+Paracetamol 400mg (unidades): 
+346
+
+Aspirinas 100mg (unidades): 
+733
+
+Omeprazol 20mg (unidades): 
+125
+
+Simvastatina 20mg(unidades): 
+32
